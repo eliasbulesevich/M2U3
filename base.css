@@ -38,13 +38,20 @@ aside {
 }
 
 @media screen and (max-width:800px){
+	#contenedor {
+			width: 100%;
+			background: #8FA68E;
+			margin-right:auto;
+			margin-left:auto;
+			overflow: hidden;
+		}
 	body {
 		margin-top: 0px;
 		margin-left:0px;
 	}
 	nav {
 		background: #E0AE58;
-		width: 800px;
+		width: 100%;
 		border-bottom: solid black 1.5px;
 	}
 	ul {
@@ -64,13 +71,13 @@ aside {
 		background: #F1F2C0;
 		margin-left:0px;
 		border-bottom: solid black 1.5px;
-		width: 800px;
+		width: 100%;
 	}
 	aside {
 		background: #CCC59E;
 		float: right;
 		margin-left:0px;
-		width: 800px;
+		width: 100%;
 	}
 	h2{
 		margin-left: 10px;
